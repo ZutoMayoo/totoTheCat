@@ -1,0 +1,6 @@
+# toto-the-cat: 托托桌宠 —— 挂载行。
+# 安装后 `dsh plugin` 会自动把本包加入 profile 的 dsh.profile.bundles，
+# 并以本文件作为该 bundle 的 patch 层，向 web profile 注入下面这行插件。
+- insert:
+    - id: toto-the-cat
+      name: toto-the-cat

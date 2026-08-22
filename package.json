@@ -1,0 +1,50 @@
+{
+  "name": "toto-the-cat",
+  "version": "1.0.1",
+  "description": "托托（Toto）桌宠 —— DeepSeek Harness Web 界面里的一只小猫。自定义像素画/立绘外观、番茄闹钟、经验等级成长、有关托托的30个事实解锁。零依赖、零构建。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "assets",
+    "tools",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "dsh-plugin",
+    "desktop-pet",
+    "pet",
+    "toto",
+    "cat",
+    "pomodoro",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZutoMayoo/totoTheCat.git"
+  },
+  "homepage": "https://github.com/ZutoMayoo/totoTheCat",
+  "engines": {
+    "node": ">=18"
+  }
+}
